@@ -1,5 +1,7 @@
 package DIJ;
 
+//UIP-PROG2- PANAMA
+
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
 import java.util.ArrayList;
@@ -74,7 +76,7 @@ public class Main {
                     } else if (!mat.find()) {
                         System.out.println("Opcion Invalida");
                         System.out.println("Digite un nombre");
-                        System.out.println("Ejemplo : Juanito Perez");
+                        System.out.println("Ejemplo : Luis Delgado");
                         break;
                     }
                     System.out.print("Cedula o Pasaporte: ");
@@ -87,7 +89,7 @@ public class Main {
                     }else if (!mate.find()) {
                         System.out.println("Opcion Invalida");
                         System.out.println("Digite una cedula o pasaporte correcto");
-                        System.out.println("Ejemplo: 8-000-0000 o XX-12-1234");break;
+                        System.out.println("Ejemplo: 4-XXX-XXX o X-X-XXX");break;
                     }
 
                     System.out.println("Que hizo?");
@@ -115,7 +117,7 @@ public class Main {
                     }else if (!matcher.find()) {
                         System.out.println("Opcion Invalida");
                         System.out.println("Escoja el nombre de un policia ");
-                        System.out.println("Ejemplo: Jose Jose");break;
+                        System.out.println("Ejemplo: Ricardo Perez");break;
                     }
 
                     while (listaPolicia.hasNext()) {
