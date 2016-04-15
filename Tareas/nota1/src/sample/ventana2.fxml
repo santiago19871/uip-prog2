@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.RowConstraints?>
+
+<GridPane alignment="center" hgap="10" vgap="10" xmlns="http://javafx.com/javafx/8.0.71" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+    <columnConstraints>
+        <ColumnConstraints />
+    </columnConstraints>
+    <rowConstraints>
+        <RowConstraints />
+    </rowConstraints>
+    <children>
+        <Pane prefHeight="334.0" prefWidth="344.0">
+            <children>
+                <Button fx:id="btn2" layoutX="247.0" layoutY="271.0" mnemonicParsing="false" onAction="#Mostrar" text="Regresar" />
+                <Label fx:id="lbl1" layoutX="35.0" layoutY="48.0" />
+                <Label fx:id="lbl2" alignment="BOTTOM_RIGHT" layoutX="113.0" layoutY="48.0" />
+                <Label fx:id="lbl0" layoutX="35.0" layoutY="14.0" text="BOLETIN DEL ESTUDIANTE" />
+                <Label layoutX="27.0" layoutY="89.0" text="nombre1" />
+                <Label fx:id="lbl4" alignment="BOTTOM_RIGHT" layoutX="113.0" layoutY="89.0" text="nota1" />
+                <Label layoutX="27.0" layoutY="117.0" prefHeight="35.0" prefWidth="55.0" text="nombre2" />
+                <Label alignment="BOTTOM_RIGHT" layoutX="112.0" layoutY="126.0" text="nota2" />
+                <Label layoutX="27.0" layoutY="170.0" text="nombre3" />
+                <Label alignment="BOTTOM_RIGHT" layoutX="112.0" layoutY="170.0" text="nota3" />
+                <Label layoutX="27.0" layoutY="206.0" text="nombre4" />
+                <Label alignment="BOTTOM_RIGHT" layoutX="113.0" layoutY="206.0" text="nota4" />
+                <Label layoutX="29.0" layoutY="242.0" text="nombre5" />
+                <Label alignment="BOTTOM_RIGHT" layoutX="113.0" layoutY="242.0" text="nota5" />
+            </children>
+        </Pane>
+    </children>
+</GridPane>
