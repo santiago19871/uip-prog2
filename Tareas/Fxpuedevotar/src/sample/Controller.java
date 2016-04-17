@@ -2,12 +2,14 @@ package sample;
 
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
+import javafx.scene.control.Button;
 import javafx.scene.control.Label;
 import javafx.scene.control.TextArea;
 //import javafx.scene.control.Button;
 
 public class Controller {
-    //@FXML private Button btn1;
+    @FXML
+   private Button btn1;
     @FXML
     private Label nombre;
     @FXML
